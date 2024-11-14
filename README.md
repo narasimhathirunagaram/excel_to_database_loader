@@ -1,4 +1,4 @@
-# Sales Data Processing Script
+# Python script for Sales Data Processing
 
 This Python script processes sales data from two different regions (Region A and Region B) and performs various transformations according to specified business rules. It loads the cleaned and transformed data into an SQLite database for further analysis and validation.
 
