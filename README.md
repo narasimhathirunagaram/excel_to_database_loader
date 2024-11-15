@@ -26,19 +26,23 @@ This Python script processes sales data from two different regions (Region A and
 5. Add a column `net_sale` calculated as `total_sales - PromotionDiscount`.
 6. Exclude orders where `net_sale` is less than or equal to zero.
 
-## Installation
+## Setup and Run Instructions
 
-### Step 1: Set Up a Virtual Environment
+### Step 1: Cloning the Repository :
+To clone this repository, open your terminal and run the following command:
+git clone <repository_url>
+
+### Step 2: Set Up a Virtual Environment
 To create a virtual environment for the project, run the following command:
 python3 -m venv venv
 
-### Step 2: Activate the Virtual Environment
+### Step 3: Activate the Virtual Environment
 source venv/bin/activate
 
-### Step 3: Install the required libraries
+### Step 4: Install the required libraries
 pip install pandas openpyxl
 
-### Step 4: Create requirements.txt
+### Step 5: Create requirements.txt
 pip freeze > requirements.txt
 
 ## Usage
